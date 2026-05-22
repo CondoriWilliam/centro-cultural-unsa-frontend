@@ -1,0 +1,18 @@
+.auth-layout {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-layout.user-view {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.auth-layout.manager-view {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.auth-layout.admin-view {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
